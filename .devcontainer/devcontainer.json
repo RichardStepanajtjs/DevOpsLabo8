@@ -1,0 +1,18 @@
+{
+  // gebruik image bij 1 container, docker compose bij meerder containers
+  //"image": "mcr.microsoft.com/devcontainers/typescript-node:1-20-bullseye",
+  
+  "dockerComposeFile": "docker-compose.yml",
+
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "Prisma.prisma"
+      ]
+   }
+  },
+
+  "service": "app",
+
+  "workspaceFolder": "/workspaces/${localWorkspaceFolderBasename}"
+}

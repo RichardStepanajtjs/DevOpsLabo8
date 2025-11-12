@@ -11,5 +11,6 @@
         "Prisma.prisma"
       ]
    }
-  }
+  },
+  "postStartCommand": "npm install; npx prisma db push; npx prisma db seed; npm run start &; npx prisma studio;"
 }
